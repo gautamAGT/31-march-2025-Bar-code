@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-03-31T05:41:02.6205859Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-03-31T09:18:28.7254548Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -73,7 +73,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -160,7 +159,7 @@
                       <GroupExpression>=Fields!Item_.Value</GroupExpression>
                     </GroupExpressions>
                     <PageBreak>
-                      <BreakLocation>Between</BreakLocation>
+                      <BreakLocation>End</BreakLocation>
                     </PageBreak>
                   </Group>
                   <SortExpressions>
@@ -170,7 +169,11 @@
                   </SortExpressions>
                   <TablixMembers>
                     <TablixMember>
-                      <Group Name="Details" />
+                      <Group Name="Details">
+                        <PageBreak>
+                          <BreakLocation>Between</BreakLocation>
+                        </PageBreak>
+                      </Group>
                       <TablixMembers>
                         <TablixMember />
                       </TablixMembers>
@@ -196,6 +199,11 @@
       </Body>
       <Width>7.54389in</Width>
       <Page>
+        <PageHeight>4in</PageHeight>
+        <LeftMargin>0in</LeftMargin>
+        <RightMargin>0in</RightMargin>
+        <TopMargin>0in</TopMargin>
+        <BottomMargin>0in</BottomMargin>
         <Style />
       </Page>
     </ReportSection>
